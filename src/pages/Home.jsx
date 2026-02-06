@@ -134,14 +134,6 @@ function Home() {
                     <p className="hero-subtitle">
                         Empowering the Next Generation of Cybersecurity Professionals
                     </p>
-                    <div className="hero-buttons">
-                        <Link to="/office-bearers" className="btn btn-primary">
-                            <i className="fas fa-users"></i> Meet The Team
-                        </Link>
-                        <Link to="/events" className="btn btn-secondary">
-                            <i className="fas fa-calendar-alt"></i> Join Events
-                        </Link>
-                    </div>
                 </div>
             </section>
 
