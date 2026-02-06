@@ -39,6 +39,9 @@ function OfficeBearers() {
     }, []);
 
     const officeBearers = {
+        facultyCoordinator: [
+            { name: "Dr. M. PYINGKODI", year: "Associate Professor", image: "pyingodi.jpg" }
+        ],
         secretaries: [
             { name: "ELAMUGIL S", year: "II MCA", image: "elamugil_s.jpg" }
         ],
@@ -129,6 +132,24 @@ function OfficeBearers() {
                             Meet the dedicated team leading our cybersecurity initiatives
                         </p>
                         <div className="title-underline"></div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Faculty Coordinator Section */}
+            <section className="bearers-section faculty-section">
+                <div className="container">
+                    <div className="section-header">
+                        <div className="section-icon-wrapper">
+                            <i className="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <h2 className="section-title">Faculty Coordinator</h2>
+                        <div className="section-line"></div>
+                    </div>
+                    <div className="bearers-grid single">
+                        {officeBearers.facultyCoordinator.map((bearer, index) =>
+                            renderBearerCard(bearer, index, "fas fa-user-tie")
+                        )}
                     </div>
                 </div>
             </section>

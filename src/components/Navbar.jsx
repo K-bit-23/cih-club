@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import logo from '../assets/logo.png';
+import kecLogo from '../assets/kec_logo.jpg';
+import './Navbar.css';
 
 function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -25,10 +26,12 @@ function Navbar() {
     return (
         <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`} id="navbar">
             <div className="nav-container">
-                <div className="nav-brand">
-                    <img src={logo} alt="Cyber Intelligence Hub Logo" className="nav-logo" />
-                    <span className="brand-text">Cyber Intelligence Hub</span>
-                </div>
+                <Link to="/" className="nav-brand">
+                    <div className="college-brand">
+                        <img src={kecLogo} alt="KEC Logo" className="college-main-logo" />
+                        <span className="college-name">Kongu Engineering College</span>
+                    </div>
+                </Link>
                 <div
                     className={`nav-toggle ${isMobileMenuOpen ? 'active' : ''}`}
                     id="navToggle"

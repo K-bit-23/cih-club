@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
+import './Footer.css';
 
 function Footer() {
     return (
@@ -28,9 +29,9 @@ function Footer() {
                     <div className="footer-section">
                         <h4 className="footer-heading">Contact Us</h4>
                         <ul className="footer-contact">
-                            <li><i className="fas fa-envelope"></i> info@cyberintel.hub</li>
+                            <li><i className="fas fa-envelope"></i> cyberintelhub.kec@gmail.com</li>
                             <li><i className="fas fa-phone"></i> +91 98765 43210</li>
-                            <li><i className="fas fa-map-marker-alt"></i> Campus Building, Room 101</li>
+                            <li><i className="fas fa-map-marker-alt"></i> Kongu Engineering College,<br />Perundurai, Erode,<br />Tamil Nadu 638060</li>
                         </ul>
                     </div>
                     <div className="footer-section">
