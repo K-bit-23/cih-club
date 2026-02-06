@@ -37,6 +37,10 @@ function Events() {
         <div className="events-container">
             {/* Event Header Card */}
             <div className="event-main-card">
+                <div className="event-status-badge">
+                    <div className="status-dot"></div>
+                    <span className="status-text">REGISTRATION OPEN</span>
+                </div>
                 <div className="event-college-info">
                     <h2>KONGU ENGINEERING COLLEGE</h2>
                     <div className="event-association">ASSOCIATION OF COMPUTER APPLICATIONS</div>
