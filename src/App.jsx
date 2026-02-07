@@ -7,6 +7,7 @@ import OfficeBearers from './pages/OfficeBearers';
 import Gallery from './pages/Gallery';
 import Events from './pages/Events';
 import Initiatives from './pages/Initiatives';
+import NotFound from './pages/NotFound';
 import Preloader from './components/Preloader';
 import './App.css';
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/events" element={<Events />} />
           <Route path="/initiatives" element={<Initiatives />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </div>
