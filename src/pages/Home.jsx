@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 import groupPhoto from '../assets/group_photo.jpg';
+import Footer from '../components/Footer';
 import './Home.css';
 
 function Home() {
@@ -287,6 +288,8 @@ function Home() {
                     </div>
                 </div>
             </section>
+
+            <Footer />
         </div>
     );
 }

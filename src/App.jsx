@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
 import Home from './pages/Home';
 import OfficeBearers from './pages/OfficeBearers';
 import Gallery from './pages/Gallery';
@@ -49,7 +48,6 @@ function App() {
           <Route path="/initiatives" element={<Initiatives />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <Footer />
       </div>
     </Router>
   );
