@@ -37,19 +37,10 @@ function Footer() {
                     <div className="footer-section">
                         <h4 className="footer-heading">Follow Us</h4>
                         <div className="social-links">
-                            <a href="#" className="social-link" aria-label="Facebook">
-                                <i className="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="#" className="social-link" aria-label="Twitter">
-                                <i className="fab fa-twitter"></i>
-                            </a>
-                            <a href="#" className="social-link" aria-label="Instagram">
+                            <a href="https://www.instagram.com/cih.mca.kec/" className="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                                 <i className="fab fa-instagram"></i>
                             </a>
-                            <a href="#" className="social-link" aria-label="LinkedIn">
-                                <i className="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="#" className="social-link" aria-label="GitHub">
+                            <a href="https://github.com/cihmcakec" className="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                                 <i className="fab fa-github"></i>
                             </a>
                         </div>
